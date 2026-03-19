@@ -22,12 +22,12 @@ export default function BookInfo({ books, addToCart, cart }) {
       <main id="books__main">
         <div className="books__container">
           <div className="row">
-            <div className="books__selected--top">
+            <div className="book__selected--top">
               <Link to="/books" className="books__link">
                 <FontAwesomeIcon icon="arrow-left" />
               </Link>
               <Link to="/books" className="books__link">
-                <h2 className="book__selected--title--top">Books</h2>
+                <h6 className="book__selected--title--top">Back to Books</h6>
               </Link>
             </div>
             <div className="book__selected">
